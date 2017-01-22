@@ -2,14 +2,11 @@ var app = angular.module('insight', []);
 app.requires.push('ngRoute');
 
 
-app.config(function ($routeProvider) {
+app.config(function ($routeProvider, $locationProvider) {
     $routeProvider
-        .when('/home/:data', {
-            template: '<first-page></first-page>',
-            resolve: {
-                configData: function (session) {
-                    return session.getConfig();
-                }
-            }
+        .when('/', {
+            template: '<first-page></first-page>'
         });
+    $locationProvider.html5Mode(true);
+
 });

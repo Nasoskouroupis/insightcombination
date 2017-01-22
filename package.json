@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/Nasoskouroupis/insightcombination#readme",
   "dependencies": {
-    "angular": "^1.6.1",
-    "angular-route": "^1.6.1"
+    "angular": "1.5.10",
+    "angular-route": "1.5.10"
   },
   "devDependencies": {
     "lite": "^3.1.13",

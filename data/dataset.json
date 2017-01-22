@@ -1,41 +1,39 @@
 {
-"id": "Data 1",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Data 2",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Data 3",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Data 4",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Data 5",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Data 6",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Data 7",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
+    "Artists": [
+        {
+            "id": "Data 1",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "Data 2",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "Data 3",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "Data 4",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "Data 5",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "Data 6",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "Data 7",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        }
+    ]
 }

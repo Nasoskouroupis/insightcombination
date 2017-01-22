@@ -8,11 +8,13 @@ app.component("firstPage", {
         var model = this;
         model.results = [];
         model.$onInit = function () {
-            model.dataset = session.getDataset();
-            var r1 = model.random(0, mmodel.dataset);
-            var r2 = model.random(0, mmodel.dataset);
-            model.results.push(model.dataset[r1]);
-            model.results.push(model.dataset[r2]);
+            session.getConfig().then(function (data) {
+                model.dataset = data.Artists;
+                var r1 = model.random(0, model.dataset.length-1);
+                var r2 = model.random(0, model.dataset.length-1);
+                model.results.push(model.dataset[r1]);
+                model.results.push(model.dataset[r2]);
+            });
         };
         model.random = function (min, max) {
             let rand = Math.floor(Math.random() * (max - min + 1) + min);
