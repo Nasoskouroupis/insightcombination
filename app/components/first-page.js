@@ -17,7 +17,7 @@ app.component("firstPage", {
             // });
         };
         model.onClick = function () {
-            model.results = [];
+            model.results = ["a", "b"];
             session.getConfig().then(function (data) {
                 model.dataset = data.Artists;
                 var r1 = model.random(0, model.dataset.length - 1);
