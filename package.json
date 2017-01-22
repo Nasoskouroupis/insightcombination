@@ -1,0 +1,27 @@
+{
+  "name": "insightcombination",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server –port 10001",
+    "start": "start npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nasoskouroupis/insightcombination.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nasoskouroupis/insightcombination/issues"
+  },
+  "homepage": "https://github.com/Nasoskouroupis/insightcombination#readme",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
