@@ -6,7 +6,8 @@ app.component("firstPage", {
     controllerAs: "model",
     controller: function ($routeParams, session) {
         var model = this;
-        model.results = [];
+            model.resultArtists = {};
+            model.resultSenses = {};
         model.$onInit = function () {
             // session.getConfig().then(function (data) {
             //     model.dataset = data.Artists;
@@ -17,13 +18,17 @@ app.component("firstPage", {
             // });
         };
         model.onClick = function () {
-            model.results = ["a", "b"];
-            session.getConfig().then(function (data) {
-                model.dataset = data.Artists;
-                var r1 = model.random(0, model.dataset.length - 1);
-                var r2 = model.random(0, model.dataset.length - 1);
-                model.results.push(model.dataset[r1]);
-                model.results.push(model.dataset[r2]);
+            model.resultArtists = {};
+            model.resultSenses = {};
+            session.getDatabaseOne().then(function (data) {
+                model.Artists = data.Artists;
+                var r1 = model.random(0, model.Artists.length - 1);
+                model.resultArtists=model.Artists[r1];
+            });
+            session.getDatabaseTwo().then(function (data) {
+                model.Senses = data.Senses;
+                var r1 = model.random(0, model.Senses.length - 1);
+                model.resultSenses=model.Senses[r1];
             });
         };
         model.random = function (min, max) {

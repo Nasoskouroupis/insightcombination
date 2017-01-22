@@ -1,6 +1,11 @@
 <button ng-click="model.onClick()">Refresh</button>
-<div ng-repeat="artist in model.results track by $index">
-<div> {{artist.id}}</div>
-<div> {{artist.description}}</div>
-<div> {{artist.image}}</div>
+<div>
+<div> {{model.resultArtists.id}}</div>
+<div> {{model.resultArtists.description}}</div>
+<div> {{model.resultArtists.image}}</div>
+<div> {{model.resultSenses.id}}</div>
+<div> {{model.resultSenses.description}}</div>
+<div> {{model.resultSenses.image}}</div>
+<div> {{model.resultSenses}}</div>
+<div> {{model.resultArtists}}</div>
 </div>

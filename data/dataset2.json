@@ -1,41 +1,39 @@
 {
-"id": "Alt Data 1",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Alt Data 2",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Alt Data 3",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Alt Data 4",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Alt Data 5",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Alt Data 6",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
-},
-
-{
-"id": "Alt Data 7",
-"description": "Lorem ipsum dolor",
-"image": "folder/name.png"
+    "Senses": [
+        {
+            "id": "dsa aData 1",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "dss Data 2",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "sdsd Data 3",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "sdsds Data 4",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "sds Data 5",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "sdsd Data 6",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        },
+        {
+            "id": "sdsd Data 7",
+            "description": "Lorem ipsum dolor",
+            "image": "folder/name.png"
+        }
+    ]
 }
