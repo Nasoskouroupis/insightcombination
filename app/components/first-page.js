@@ -8,10 +8,20 @@ app.component("firstPage", {
         var model = this;
         model.results = [];
         model.$onInit = function () {
+            // session.getConfig().then(function (data) {
+            //     model.dataset = data.Artists;
+            //     var r1 = model.random(0, model.dataset.length - 1);
+            //     var r2 = model.random(0, model.dataset.length - 1);
+            //     model.results.push(model.dataset[r1]);
+            //     model.results.push(model.dataset[r2]);
+            // });
+        };
+        model.onClick = function () {
+            model.results = [];
             session.getConfig().then(function (data) {
                 model.dataset = data.Artists;
-                var r1 = model.random(0, model.dataset.length-1);
-                var r2 = model.random(0, model.dataset.length-1);
+                var r1 = model.random(0, model.dataset.length - 1);
+                var r2 = model.random(0, model.dataset.length - 1);
                 model.results.push(model.dataset[r1]);
                 model.results.push(model.dataset[r2]);
             });
