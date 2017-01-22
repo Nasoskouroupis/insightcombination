@@ -3,12 +3,12 @@
         {
             "id": "Data 1",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "images/testimageone.jpg"
         },
         {
             "id": "Data 2",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "images/testimagetwo.jpg"
         },
         {
             "id": "Data 3",
