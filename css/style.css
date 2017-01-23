@@ -55,6 +55,7 @@ html, body, .ng-scope {
   font-size: 1.05em;
   font-family:Courier New, Courier, monospace;
   line-height: 1.3em;
+
 }
 .container {
     height:100%;
@@ -93,14 +94,29 @@ html, body, .ng-scope {
     width:70%;
     height:auto;
     overflow: hidden;
-    background:#F1DEDE;
     margin-bottom:1em;
+    box-shadow: 1px 9px 83px 0px rgba(0,0,0,0.01);
+
 }
+.dataset-image img:hover {
+    overflow:hidden;
+} 
+
 .dataset-image img {
     width:100%;
     height:auto;
+    z-index:5;
 }
 
+.cta-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    align-self: center;
+    height: 100%;
+    width:100%;
+}
 button {
     position: absolute;
     width:120px;
@@ -121,19 +137,8 @@ button.active {
           box-shadow: none;
 }
 
-.cta-button {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    align-self: center;
-    height: 100%;
-    width:100%;
-    margin:0; 
-    padding:0; 
-}
 
-.dataset-title, .id {
+.dataset-title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
