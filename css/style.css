@@ -60,7 +60,6 @@ html, body, .ng-scope {
     height:100%;
     width:100%;
     display:flex;
-    flex:1;
     align-items: center;
     justify-content: center;
 }
@@ -69,33 +68,33 @@ html, body, .ng-scope {
     height:100%;
     background:#ECD7D7;
     display:flex;
-    padding:1em; 
-    flex-direction: column;
-    align-items: center;
-  justify-content: center;   
+
 }
 .left-result-col {
     width:50%;
     height:100%;
     background:#F1DEDE;
     display:flex;
-    flex-direction: column;
-    padding:1em; 
-    display:flex;
-    align-items: center;
-    justify-content: center;   
 }
 
-.cta-button {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    align-self: center;
-    height: 100%;
+.dataset-content {
     width:100%;
-    margin:0; 
-    padding:0; 
+    display:flex;
+    justify-content: center;  
+    align-items:center;
+    flex-direction: column; 
+}
+
+.dataset-image {
+    display:flex;
+    justify-content: center;  
+    align-items:center;
+    flex-direction: column; 
+    width:46%;
+    height:46%;
+    overflow: hidden;
+    background:#F1DEDE;
+    margin-bottom:1em;
 }
 
 button {
@@ -118,10 +117,14 @@ button.active {
           box-shadow: none;
 }
 
-.dataset-content img {
-    padding-bottom:.4em;
-}
-
-.dataset-title {
-    font-weight: 800;
+.cta-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    align-self: center;
+    height: 100%;
+    width:100%;
+    margin:0; 
+    padding:0; 
 }
