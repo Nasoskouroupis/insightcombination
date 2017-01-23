@@ -13,27 +13,27 @@
         {
             "id": "Data 3",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         },
         {
             "id": "Data 4",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         },
         {
             "id": "Data 5",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         },
         {
             "id": "Data 6",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         },
         {
             "id": "Data 7",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         }
     ]
 }

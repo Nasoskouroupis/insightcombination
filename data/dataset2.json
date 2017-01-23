@@ -3,37 +3,37 @@
         {
             "id": "dsa aData 1",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         },
         {
             "id": "dss Data 2",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         },
         {
             "id": "sdsd Data 3",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         },
         {
             "id": "sdsds Data 4",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         },
         {
             "id": "sds Data 5",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         },
         {
             "id": "sdsd Data 6",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         },
         {
             "id": "sdsd Data 7",
             "description": "Lorem ipsum dolor",
-            "image": "folder/name.png"
+            "image": "../images/testimagetwo.jpg"
         }
     ]
 }
