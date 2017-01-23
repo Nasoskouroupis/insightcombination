@@ -1,39 +1,39 @@
 {
     "Artists": [
         {
-            "id": "Data 1",
-            "description": "Lorem ipsum dolor",
-            "image": "../images/testimageone.jpg"
+            "id": "Hiroshi Sugimoto",
+            "description": "Seascapes",
+            "image": "../images/seascapes.jpg"
         },
         {
-            "id": "Data 2",
-            "description": "Lorem ipsum dolor",
-            "image": "../images/testimagetwo.jpg"
+            "id": "Noora-Maija Tokee",
+            "description": "Symbiosis",
+            "image": "../images/symbiosis.jpg"
         },
         {
-            "id": "Data 3",
-            "description": "Lorem ipsum dolor",
-            "image": "../images/testimagetwo.jpg"
+            "id": "Hengki Koentjoro",
+            "description": "Atmospheric Photography",
+            "image": "../images/indonesian-atmospheric.jpg"
         },
         {
-            "id": "Data 4",
-            "description": "Lorem ipsum dolor",
-            "image": "../images/testimagetwo.jpg"
+            "id": "Camila Falquez",
+            "description": "Humanidad Aqui Arriba",
+            "image": "../images/Camila Falquez.jpg"
         },
         {
-            "id": "Data 5",
-            "description": "Lorem ipsum dolor",
-            "image": "../images/testimagetwo.jpg"
+            "id": "Stefan Haehnel",
+            "description": "A Day Off In Berlin",
+            "image": "../images/Stefan Haehnel.jpg"
         },
         {
-            "id": "Data 6",
-            "description": "Lorem ipsum dolor",
-            "image": "../images/testimagetwo.jpg"
+            "id": "Monika Mróz",
+            "description": "Fuxing Shanghai",
+            "image": "../images/fuxing-shanghai.jpg"
         },
         {
-            "id": "Data 7",
-            "description": "Lorem ipsum dolor",
-            "image": "../images/testimagetwo.jpg"
+            "id": "Nobuyoshi Araki",
+            "description": "Love of the Left Eye",
+            "image": "../images/love-left-eye.jpg"
         }
     ]
 }
