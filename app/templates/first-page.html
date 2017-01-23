@@ -1,14 +1,18 @@
 <button ng-click="model.onClick()">Provocate Ideas</button>
 <div class="container">
     <div class="left-result-col">
-        <div><image src={{model.resultArtists.image}}></div>       
-        <div> {{model.resultArtists.id}}</div>
-        <div> {{model.resultArtists.description}}</div>
+        <div class="dataset-content">
+            <div><image src={{model.resultArtists.image}}></div>       
+            <div> {{model.resultArtists.id}}</div>
+            <div> {{model.resultArtists.description}}</div>
+        </div>
      </div>
 
      <div class="right-result-col">
-        <div><image src={{model.resultSenses.image}}></div>       
-        <div> {{model.resultSenses.id}}</div>
-        <div> {{model.resultSenses.description}}</div>
+        <div class="dataset-content">
+            <div><image src={{model.resultSenses.image}}></div>       
+            <div> {{model.resultSenses.id}}</div>
+            <div> {{model.resultSenses.description}}</div>
+        </div>
     </div>
 </div>
