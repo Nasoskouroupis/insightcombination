@@ -1,0 +1,15 @@
+.container {
+    display:flex;
+}
+.right-result-col{
+    width:50%;
+    text-align: center;
+    background:gray;
+    display:flex;
+}
+.left-result-col {
+    width:50%;
+    text-align: center;
+    background:pink;
+    display:flex;
+}
