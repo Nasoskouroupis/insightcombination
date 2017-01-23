@@ -52,6 +52,9 @@ html, body, .ng-scope {
   width:100%;
   margin:0; 
   padding:0; 
+  font-size: 1.05em;
+  font-family:Courier New, Courier, monospace;
+  line-height: 1.3em;
 }
 .container {
     height:100%;
@@ -64,7 +67,7 @@ html, body, .ng-scope {
 .right-result-col{
     width:50%;
     height:100%;
-    background:#f3f3f3;
+    background:#ECD7D7;
     display:flex;
     padding:1em; 
     flex-direction: column;
@@ -74,7 +77,7 @@ html, body, .ng-scope {
 .left-result-col {
     width:50%;
     height:100%;
-    background:pink;
+    background:#F1DEDE;
     display:flex;
     flex-direction: column;
     padding:1em; 
@@ -99,7 +102,26 @@ button {
     position: absolute;
     width:120px;
     height:120px; 
-    xborder-radius: 50%;
+    border-radius: 50%;
     overflow:hidden;
-    background: #4679BD; 
+    background: #F8D743; 
+    color:#494545;
+    font-size:.9em;
+}
+
+button:active,
+button:focus,
+button.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.dataset-content img {
+    padding-bottom:.4em;
+}
+
+.dataset-title {
+    font-weight: 800;
 }
